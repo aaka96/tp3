@@ -1,0 +1,33 @@
+@font-face {
+    font-family: sensei;
+    src: url(fonts/Sensei-Medium.ttf);
+  }
+
+.sensei {
+    font-family: sensei;
+    font-size: 5.5em;
+}
+header{
+    background-image: url("images/dali1.jpg");
+    height: 100%;
+    background-size: 100%;
+    background-size: cover;
+}
+
+hr{
+    margin-bottom: -20px;
+    /* border: 10px solid black; */
+}
+
+.historia-contenido > .container > .row{
+    background-color: #ffca7b;
+}
+
+.historia-titulo{
+    font-size: 80px;
+    background-color: #efa83f;
+}
+html,body{
+    height: 90%;
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,150 @@
+@font-face {
+    font-family: sensei;
+    src: url(fonts/Sensei-Medium.ttf);
+}
+
+.sensei {
+    font-family: sensei;
+    font-size: 3.5em;
+}
+
+.sensei-small {
+    font-family: sensei;
+    font-size: 2em;
+}
+
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+/* .history{
+    background-color: #fca889;
+} */
+.icon {
+    color: black;
+    text-decoration: none;
+}
+
+.square {
+    height: 200px;
+    width: 90px;
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.square:hover {
+    color: black;
+}
+
+.square-1:hover {
+    background-color: #f5580b;
+}
+
+.square-2:hover {
+    background-color: #82a9b3;
+}
+
+.square-3:hover {
+    background-color: #cfa67f;
+}
+
+.square-4:hover {
+    background-color: #fca889;
+}
+
+.square-5:hover {
+    background-color: #6cacd4;
+}
+
+.square-5:hover {
+    background-color: #efbb3d;
+}
+
+.cuadro {
+    height: 550px;
+}
+
+/* .card{
+    background-color: transparent !important;
+    color: white;
+    border: 0;
+} */
+
+.filosofia {
+    background-color: #82A9B3;
+}
+
+.museos {
+    background-color: #96c3e0;
+}
+
+.artistas img {
+    width: 244px;
+    height: 367px;
+    object-fit: cover;
+}
+
+
+.over-description {
+    position: absolute;
+    height: 367px;
+    width: 244px;
+    margin-top: -367px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+
+}
+
+.artist-hover:hover .over-description {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.artist-hover {
+    cursor: pointer;
+}
+
+.artistas {
+    background-color: #ddbfa1;
+}
+
+
+
+
+.home-link {
+    background-color: #a5a5a5;
+    color:black;
+    text-decoration: none;
+    height: 20%;
+}
+
+.home-link:hover{
+    background-color: black;
+    color:white;
+    transition: 1s ease;
+}
+
+video {
+    width: -webkit-fill-available;
+    height: 800px !important;
+    object-fit: cover;
+}

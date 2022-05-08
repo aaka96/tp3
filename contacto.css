@@ -1,0 +1,7 @@
+body > .container{
+    background-color: #efbb3c;
+    height: 80%;
+}
+html,body{
+    height: 100%;
+}
